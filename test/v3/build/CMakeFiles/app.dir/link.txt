@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/app.dir/main.cc.o  -o app   -L/home/mentha/workspace/cmaketest/v3/lib2  -Wl,-rpath,/home/mentha/workspace/cmaketest/v3/lib2 -lcalc 

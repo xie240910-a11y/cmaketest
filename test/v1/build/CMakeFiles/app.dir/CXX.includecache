@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/head.h
+
+/home/mentha/workspace/cmaketest/src/add.cc
+head.h
+/home/mentha/workspace/cmaketest/src/head.h
+
+/home/mentha/workspace/cmaketest/src/main.cc
+head.h
+/home/mentha/workspace/cmaketest/src/head.h
+iostream
+-
+
+/home/mentha/workspace/cmaketest/src/sub.cc
+head.h
+/home/mentha/workspace/cmaketest/src/head.h
+
