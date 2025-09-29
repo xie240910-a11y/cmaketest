@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libsort.so -o ../../lib/libsort.so CMakeFiles/sort.dir/sort.cc.o   -L/home/mentha/workspace/cmaketest/test/v6/lib  -Wl,-rpath,/home/mentha/workspace/cmaketest/test/v6/lib ../../lib/libcalc.a 

@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.15)
+# https://subingwen.cn/cmake/CMake-primer
+# 定义项目
+project(test2)
+
+aux_source_directory(./ SRC)
+include_directories(${HEADPATH})
+link_directories(${LIBPATH})
+link_libraries(${SORTLIB})
+set(EXECUTABLE_OUTPUT_PATH ${EXECPATH})
+add_executable(${APPNAME2} ${SRC})
+target_link_libraries(${APPNAME2} ${SORTLIB})

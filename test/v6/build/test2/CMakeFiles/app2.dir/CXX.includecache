@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/sort.h
+vector
+-
+
+/home/mentha/workspace/cmaketest/test/v6/test2/main.cc
+iostream
+-
+vector
+-
+sort.h
+/home/mentha/workspace/cmaketest/test/v6/test2/sort.h
+

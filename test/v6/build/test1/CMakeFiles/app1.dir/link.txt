@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/app1.dir/main.cc.o  -o ../../bin/app1   -L/home/mentha/workspace/cmaketest/test/v6/lib  -Wl,-rpath,/home/mentha/workspace/cmaketest/test/v6/lib ../../lib/libcalc.a 

@@ -1,0 +1,2 @@
+/home/mentha/workspace/cmaketest/test/v4/build/CMakeFiles/rebuild_cache.dir
+/home/mentha/workspace/cmaketest/test/v4/build/CMakeFiles/edit_cache.dir

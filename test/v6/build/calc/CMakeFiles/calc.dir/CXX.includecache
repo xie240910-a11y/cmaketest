@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/calc.h
+
+/home/mentha/workspace/cmaketest/test/v6/calc/add.cc
+calc.h
+/home/mentha/workspace/cmaketest/test/v6/calc/calc.h
+
+/home/mentha/workspace/cmaketest/test/v6/calc/sub.cc
+calc.h
+/home/mentha/workspace/cmaketest/test/v6/calc/calc.h
+
